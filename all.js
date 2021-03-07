@@ -65,28 +65,16 @@ function printBmi(height, weight) {
   // console.log(bmi);
 
   if (bmi < 18.5) {
-    // bmiStateText("overThin");
-    // addData(bmi, "overThin");
     handleBmi(bmi, "overThin");
   } else if (18.5 <= bmi && bmi < 24) {
-    // bmiStateText("normal");
-    // addData(bmi, "normal");
     handleBmi(bmi, "normal");
   } else if (24 <= bmi && bmi < 27) {
-    // bmiStateText("overWeight");
-    // addData(bmi, "overWeight");
     handleBmi(bmi, "overWeight");
   } else if (27 <= bmi && bmi < 30) {
-    // bmiStateText("mildFat");
-    // addData(bmi, "mildFat");
     handleBmi(bmi, "mildFat");
   } else if (30 <= bmi && bmi < 35) {
-    // bmiStateText("moderateFat");
-    // addData(bmi, "moderateFat");
     handleBmi(bmi, "moderateFat");
   } else if (35 <= bmi) {
-    // bmiStateText("severeFat");
-    // addData(bmi, "severeFat");
     handleBmi(bmi, "severeFat");
   } else {
     console.log("您輸入的數字錯誤");
